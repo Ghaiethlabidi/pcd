@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">project</string>
+    <string name="started_title">
+       <br><b>     Your Premier Solution for Monitoring!   </b></br>
+        <br><b>    Home Energy Consumption.    </b></br>
+        <br><b>    Start Optimizing your usage.   </b></br>
+    </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
