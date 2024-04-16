@@ -3,14 +3,125 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".settings">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Settings page"
-        android:textSize="27sp"
-        android:layout_gravity="center" />
+    <Button
+        android:id="@+id/notif"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="80dp"
+        android:drawableLeft="@drawable/baseline_notifications_24"
+        android:text="Notifications"
+        android:textColor="@color/bleu2"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:backgroundTint="@color/back_color"/>
+
+    <Button
+        android:id="@+id/device"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="150dp"
+        android:drawableLeft="@drawable/baseline_devices_24"
+        android:text="Device Details"
+        android:textColor="@color/bleu2"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:backgroundTint="@color/back_color"/>
+
+    <Button
+        android:id="@+id/profil"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="220dp"
+        android:drawableLeft="@drawable/baseline_person_24"
+        android:text="Profile Details"
+        android:textColor="@color/bleu2"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:backgroundTint="@color/back_color"/>
+
+    <Button
+        android:id="@+id/report"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="290dp"
+        android:drawableLeft="@drawable/baseline_file_copy_24"
+        android:text="Usage Report"
+        android:textColor="@color/bleu2"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:backgroundTint="@color/back_color"/>
+
+    <Button
+        android:id="@+id/info"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="360dp"
+        android:drawableLeft="@drawable/baseline_info_24"
+        android:text="About EnergySense"
+        android:textColor="@color/bleu2"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:backgroundTint="@color/back_color"/>
+
+    <Button
+        android:id="@+id/feedback"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="430dp"
+        android:drawableLeft="@drawable/baseline_feedback_24"
+        android:text="Feedback"
+        android:textColor="@color/bleu2"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:backgroundTint="@color/back_color"/>
+
+    <Button
+        android:id="@+id/contact"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="500dp"
+        android:drawableLeft="@drawable/baseline_support_agent_24"
+        android:text="Contact Support"
+        android:textColor="@color/bleu2"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:backgroundTint="@color/back_color"/>
+
+    <Button
+        android:id="@+id/out"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="570dp"
+        android:drawableLeft="@drawable/baseline_logout_24"
+        android:text="Logout"
+        android:textColor="@color/bleu2"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:backgroundTint="@color/back_color"/>
+
+
+
+
+
 
 </FrameLayout>

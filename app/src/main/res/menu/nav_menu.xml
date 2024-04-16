@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+  <group
+
+    android:checkableBehavior="single">
+
+          <item
+              android:id="@+id/notifications"
+              android:icon="@drawable/baseline_notifications_24"
+              android:title="Notifications"/>
+          <item
+              android:id="@+id/info"
+              android:icon="@drawable/baseline_info_24"
+              android:title="About Energy Sense"/>
+
+  </group>
+
+
+
+  <group
+      android:checkableBehavior="single">
+  <item android:title="Details" >
+        <menu>
+        <item
+            android:id="@+id/details"
+            android:icon="@drawable/baseline_devices_24"
+            android:title="Device details"/>
+        <item
+            android:id="@+id/person"
+            android:icon="@drawable/baseline_person_24"
+            android:title="Profile details"/>
+        <item
+            android:id="@+id/report"
+            android:icon="@drawable/baseline_file_copy_24"
+            android:title="Usage report "/>
+        <item
+            android:id="@+id/support"
+            android:icon="@drawable/baseline_support_agent_24"
+            android:title="Contact support"/>
+        </menu>
+
+
+
+
+</item>
+</group>
+
+
+    <item android:title=""/>
+
+
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/baseline_logout_24"
+        android:title="Logout"/>
+
+
+
+
+</menu>
+
+
+
+
+
+
+

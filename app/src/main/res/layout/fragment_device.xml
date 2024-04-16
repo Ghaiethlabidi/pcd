@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".device">
+
+    <!-- TODO: Update blank fragment layout -->
+    <Button
+        android:id="@+id/back1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/baseline_arrow_back_24"
+        android:layout_marginTop="55dp"
+        android:layout_marginLeft="20dp"
+
+        />
+    <TextView
+        android:layout_width="190dp"
+        android:layout_height="60dp"
+        android:text="Device Details"
+        android:textSize="20sp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="60dp"
+        android:textColor="@color/bleu2"
+        android:textStyle="bold"/>
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/serial_number"
+        android:layout_width="310dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="30dp"
+        android:text="Device Serial Number"
+        android:textStyle="bold"
+        android:textColor="@color/bleu2"
+        android:background="@drawable/edit"
+        android:drawablePadding="12dp"
+        android:drawableStart="@drawable/baseline_smartphone_24"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/save1"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="230dp"
+        android:text="Save "
+        android:textStyle="bold"
+        android:background="@drawable/butt"
+        android:textColor="@color/bleu2"/>
+
+</FrameLayout>

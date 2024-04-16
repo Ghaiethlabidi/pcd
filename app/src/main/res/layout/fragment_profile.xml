@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profile">
+
+    <!-- TODO: Update blank fragment layout -->
+    <Button
+        android:id="@+id/back2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/baseline_arrow_back_24"
+        android:layout_marginTop="55dp"
+        android:layout_marginLeft="20dp"
+
+        />
+    <TextView
+        android:layout_width="190dp"
+        android:layout_height="60dp"
+        android:text="Profile Details"
+        android:textSize="20sp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="60dp"
+        android:textColor="@color/bleu2"
+        android:textStyle="bold" />
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/profile_name"
+        android:layout_width="310dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="30dp"
+        android:text="Profile Name"
+        android:textStyle="bold"
+        android:textColor="@color/bleu2"
+        android:background="@drawable/edit"
+
+        />
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/email_change"
+        android:layout_width="310dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginLeft="30dp"
+        android:text="Email change"
+        android:textStyle="bold"
+        android:textColor="@color/bleu2"
+        android:background="@drawable/edit"
+
+        />
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/Phone_number_change"
+        android:layout_width="310dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="30dp"
+        android:text="Phone number change"
+        android:textStyle="bold"
+        android:textColor="@color/bleu2"
+        android:background="@drawable/edit"
+        />
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/password_change"
+        android:layout_width="310dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="370dp"
+        android:layout_marginLeft="30dp"
+        android:text="Password change "
+        android:textStyle="bold"
+        android:textColor="@color/bleu2"
+        android:background="@drawable/edit"
+
+        />
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/consumer_number"
+        android:layout_width="310dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="440dp"
+        android:layout_marginLeft="30dp"
+        android:text="Consumer number Change"
+        android:textStyle="bold"
+        android:textColor="@color/bleu2"
+        android:background="@drawable/edit"
+
+        />
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/Price_per_unit"
+        android:layout_width="310dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="510dp"
+        android:layout_marginLeft="30dp"
+        android:text="Consumer number Change"
+        android:textStyle="bold"
+        android:textColor="@color/bleu2"
+        android:background="@drawable/edit"
+
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/save2"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="580dp"
+        android:text="Save "
+        android:textStyle="bold"
+        android:background="@drawable/butt"
+        android:textColor="@color/bleu2"/>
+
+
+
+
+
+
+</FrameLayout>
